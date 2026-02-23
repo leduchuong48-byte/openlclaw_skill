@@ -1,0 +1,20 @@
+{
+  "sender_whitelist": [7856041838],
+  "services": {
+    "xhs": "http://192.168.100.21:1002",
+    "weibo": "http://192.168.100.21:1003",
+    "x": "http://192.168.100.21:2028"
+  },
+  "nfs_map": {
+    "/vol1/1000/media/素材/小红书": "/mnt/fnos_n97/media/素材/小红书",
+    "/vol1/1000/media/素材/微博": "/mnt/fnos_n97/media/素材/微博",
+    "/vol1/1000/media/素材/x": "/mnt/fnos_n97/media/素材/x"
+  },
+  "out_dir": "out/monitor-downloader",
+  "limits": {
+    "max_files": 30,
+    "max_total_mb": 500,
+    "poll_seconds": 60,
+    "poll_interval": 2
+  }
+}
